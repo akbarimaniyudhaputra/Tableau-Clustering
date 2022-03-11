@@ -1,0 +1,884 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20193.19.0821.2225                               -->
+<workbook original-version='18.1' source-build='2019.3.0 (20193.19.0821.2225)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SavingAnalyticObjects />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (smartphone)' inline='true' name='federated.0ckupmb1ugfdwa15e75yq0f0exz3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='smartphone' name='excel-direct.0utksq90s7dxh81cfqld71g73heg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/dataset/dataset tableau/smartphone.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0utksq90s7dxh81cfqld71g73heg' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:X59:no:A1:X59:0' header='yes' outcome='2'>
+            <column datatype='integer' name='kode' ordinal='0' />
+            <column datatype='string' name='produsen' ordinal='1' />
+            <column datatype='string' name='kategori' ordinal='2' />
+            <column datatype='string' name='nama produk' ordinal='3' />
+            <column datatype='string' name='ram' ordinal='4' />
+            <column datatype='string' name='memori' ordinal='5' />
+            <column datatype='string' name='Operating System' ordinal='6' />
+            <column datatype='string' name='Chipset' ordinal='7' />
+            <column datatype='string' name='CPU' ordinal='8' />
+            <column datatype='string' name='GPU' ordinal='9' />
+            <column datatype='string' name='kamera belakang' ordinal='10' />
+            <column datatype='string' name='kamera depan' ordinal='11' />
+            <column datatype='string' name='layar' ordinal='12' />
+            <column datatype='string' name='baterai' ordinal='13' />
+            <column datatype='integer' name='harga' ordinal='14' />
+            <column datatype='integer' name='terjual' ordinal='15' />
+            <column datatype='integer' name='jumlah penilai' ordinal='16' />
+            <column datatype='string' name='bintang' ordinal='17' />
+            <column datatype='integer' name='bintang 5' ordinal='18' />
+            <column datatype='integer' name='bintang 4' ordinal='19' />
+            <column datatype='integer' name='bintang 3' ordinal='20' />
+            <column datatype='integer' name='bintang 2' ordinal='21' />
+            <column datatype='integer' name='bintang 1' ordinal='22' />
+            <column datatype='integer' name='stok' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>kode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[kode]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>kode</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>produsen</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[produsen]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>produsen</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kategori</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[kategori]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>kategori</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nama produk</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[nama produk]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>nama produk</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ram</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ram]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>ram</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>memori</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[memori]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>memori</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating System</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Operating System]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Operating System</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chipset</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Chipset]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chipset</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPU</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CPU]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CPU</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GPU</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GPU]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GPU</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kamera belakang</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[kamera belakang]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>kamera belakang</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kamera depan</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[kamera depan]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>kamera depan</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>layar</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[layar]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>layar</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>baterai</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[baterai]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>baterai</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>harga</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[harga]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>harga</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>terjual</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[terjual]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>terjual</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jumlah penilai</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[jumlah penilai]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>jumlah penilai</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[bintang]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang 5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bintang 5]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang 5</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang 4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bintang 4]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang 4</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang 3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bintang 3]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang 3</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bintang 2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang 2</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bintang 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bintang 1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>bintang 1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stok</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stok]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>stok</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X59:no:A1:X59:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[bintang 1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[bintang 5]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[harga]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[terjual]' role='measure' type='quantitative' />
+      <column-instance column='[bintang 1]' derivation='Sum' name='[sum:bintang 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[bintang 5]' derivation='Sum' name='[sum:bintang 5:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[harga]' derivation='Sum' name='[sum:harga:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[terjual]' derivation='Sum' name='[sum:terjual:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.491368' measure-ordering='alphabetic' measure-percentage='0.508632' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>19</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{ab5d1f17-1cf0-43d8-906a-229071924619}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 1:qk]' />
+            <field name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 5:qk]' />
+            <field name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:harga:qk]' />
+            <field name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:terjual:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>0</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (smartphone)' name='federated.0ckupmb1ugfdwa15e75yq0f0exz3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ckupmb1ugfdwa15e75yq0f0exz3'>
+            <column auto-hidden='true' caption='Clusters' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:1]' parent-model='[AnalyticModel:{ab5d1f17-1cf0-43d8-906a-229071924619}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[bintang 1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[bintang 5]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[harga]' role='measure' type='quantitative' />
+            <column datatype='string' name='[nama produk]' role='dimension' type='nominal' />
+            <column-instance column='[AdhocCluster:1]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[nama produk]' derivation='None' name='[none:nama produk:nk]' pivot='key' type='nominal' />
+            <column-instance column='[bintang 1]' derivation='Sum' name='[sum:bintang 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bintang 5]' derivation='Sum' name='[sum:bintang 5:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[harga]' derivation='Sum' name='[sum:harga:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[terjual]' derivation='Sum' name='[sum:terjual:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[terjual]' role='measure' type='quantitative' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+                  <map to='#4e79a7'>
+                    <bucket>1</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>3</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>5</bucket>
+                  </map>
+                  <map to='#76b7b2'>
+                    <bucket>4</bucket>
+                  </map>
+                  <map to='#79706e'>
+                    <bucket>12</bucket>
+                  </map>
+                  <map to='#8cd17d'>
+                    <bucket>20</bucket>
+                  </map>
+                  <map to='#9c755f'>
+                    <bucket>9</bucket>
+                  </map>
+                  <map to='#9d7660'>
+                    <bucket>16</bucket>
+                  </map>
+                  <map to='#a0cbe8'>
+                    <bucket>18</bucket>
+                  </map>
+                  <map to='#b07aa1'>
+                    <bucket>7</bucket>
+                  </map>
+                  <map to='#bab0ac'>
+                    <bucket>10</bucket>
+                  </map>
+                  <map to='#d37295'>
+                    <bucket>13</bucket>
+                  </map>
+                  <map to='#d4a6c8'>
+                    <bucket>15</bucket>
+                  </map>
+                  <map to='#d7b5a6'>
+                    <bucket>17</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>2</bucket>
+                  </map>
+                  <map to='#edc948'>
+                    <bucket>6</bucket>
+                  </map>
+                  <map to='#fabfd2'>
+                    <bucket>14</bucket>
+                  </map>
+                  <map to='#ff9d9a'>
+                    <bucket>11</bucket>
+                  </map>
+                  <map to='#ff9da7'>
+                    <bucket>8</bucket>
+                  </map>
+                  <map to='#ffbe7d'>
+                    <bucket>19</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:AdhocCluster:1:ok]' member='2' />
+              <groupfilter function='member' level='[none:AdhocCluster:1:ok]' member='3' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:harga:qk]' value='C1057%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:nama produk:nk]' />
+              <color column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='1345' />
+                <format attr='maxwidth' value='1345' />
+                <format attr='minheight' value='225' />
+                <format attr='maxheight' value='225' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:terjual:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:nama produk:nk]' />
+              <color column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 5:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:nama produk:nk]' />
+              <color column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:nama produk:nk]' />
+              <color column='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:terjual:qk] + ([federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 5:qk] + [federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:bintang 1:qk]))</rows>
+        <cols>[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[sum:harga:qk]</cols>
+      </table>
+      <simple-id uuid='{CE84118B-1087-48D9-AC03-2E7DFEE875EF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='173'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='1' param='[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:AdhocCluster:1:ok]</field>
+            <field>[federated.0ckupmb1ugfdwa15e75yq0f0exz3].[none:nama produk:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7AD4E340-1E56-4186-B3CF-6C6A8A4F5608}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
