@@ -1,11 +1,13 @@
 # Tableau-Clustering
 
 ## A. Tableau 
-- Tableau adalah
+- Tableau adalah aplikasi untuk visualisasi, mempelajari, dan mempresentasikan data.
 - drag & drop
 
 ### A.1 Clustering di Tableau
-- Clustering adalah
+- Clustering adalah pengelompokkan sesuatu yang lebih kecil berdasarkan adanya kemiripan satu sama lain.
+- Lebih dalam akses: https://help.tableau.com/current/pro/desktop/en-us/clustering.htm 
+
 Dengan cara sebagai berikut :
 - 1.) Masukkan filenya
 
